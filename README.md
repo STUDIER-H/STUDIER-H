@@ -1,113 +1,114 @@
 <!-- ====================== HEADER ====================== -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,25,30&height=220&section=header&text=STUDIER-H&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Staff%20AI%20Systems%20%E2%80%A2%20LLM%20Serving%20%E2%80%A2%20GPU%20Infrastructure%20Architect&descAlignY=58&descSize=16" alt="Header Banner" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,25,30&height=220&section=header&text=STUDIER-H&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20Systems%20%E2%80%A2%20LLM%20Infrastructure%20%E2%80%A2%20GPU%20Serving%20in%20Training&descAlignY=58&descSize=16" alt="Header Banner" />
 
 <a href="https://github.com/STUDIER-H">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=800&color=00ADB5&center=true&vCenter=true&width=760&lines=Staff%20AI%20Systems%20%26%20LLM%20Infrastructure%20Architect%3BHigh-Throughput%20Inference%20%28vLLM%20%E2%80%A2%20TensorRT-LLM%20%E2%80%A2%20Triton%29%3BPagedAttention%20%E2%80%A2%20Zero-Waste%20KV%20Cache%20%E2%80%A2%20Sub-50ms%20TTFT%3BFP8%2C%20AWQ%20%26%20GPTQ%20Quantization%20%28140GB%20%E2%86%92%2035GB%20VRAM%29%3BKubernetes%20GPU%20Scheduling%20%E2%80%A2%20Ray%20Distributed%20Clusters" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=800&color=00ADB5&center=true&vCenter=true&width=780&lines=AI%20Systems%20%26%20LLM%20Infrastructure%20Engineer%20in%20Training%3BBuilding%20in%20Public%3A%20Serving%20Engines%2C%20Triton%20%26%20Distributed%20Clusters%3BHands-on%20LABs%3A%20PagedAttention%2C%20Quantization%20%26%20GPU%20Scheduling%3BRigorous%202%2C500h%20Systems%20Curriculum%20under%20Active%20Execution" alt="Typing Animation" />
 </a>
 
 <br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=STUDIER-H&color=00ADB5&style=for-the-badge&label=VISUALIZA%C3%87%C3%95ES)](https://github.com/STUDIER-H)
-[![Specialization](https://img.shields.io/badge/Especializa%C3%A7%C3%A3o-LLM%20Serving%20%26%20GPU%20Optimization-6C5CE7?style=for-the-badge&logo=pytorch&logoColor=white)](https://github.com/STUDIER-H)
-[![Hardware](https://img.shields.io/badge/Hardware-NVIDIA%20H100%20%2F%20A100%20%2F%20B200-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://github.com/STUDIER-H)
+[![Status](https://img.shields.io/badge/Status-Em%20Forma%C3%A7%C3%A3o%20Ativa%20(Road%20to%20Staff)-6C5CE7?style=for-the-badge)](https://github.com/STUDIER-H)
+[![Target](https://img.shields.io/badge/Foco-LLM%20Serving%20%26%20GPU%20Infrastructure-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://github.com/STUDIER-H)
 
 </div>
 
 <br/>
 
-<!-- ====================== SYSTEM ARCHITECTURE ====================== -->
+<!-- ====================== PROFILE & METHODOLOGY ====================== -->
 
-## System Architecture & Execution Model
+## Perfil & Metodologia de Formação
 
 ```python
-class AIInfrastructureEngineer:
+class AIInfrastructureTrainee:
     def __init__(self):
         self.identity = "STUDIER-H"
-        self.role = "Staff AI Systems & LLM Infrastructure Architect"
-        self.specialties = [
-            "High-Throughput Inference Engines",
-            "GPU Compute Density & VRAM Arithmetic",
-            "Distributed Cluster Orchestration",
-            "Low-Latency Model Serving (SLOs)",
+        self.status = "Em Formação Ativa | Rumo a Staff AI Systems Architect"
+        self.curriculo = "Trilha rigorosa de 2.500 horas em Sistemas de Baixo Nível, Serving de LLMs e GPUs"
+        self.areas_de_estudo = [
+            "Engines de Inferência de Alto Throughput (vLLM, NVIDIA Triton, TensorRT-LLM)",
+            "Aritmética de VRAM & Quantização de Baixo Bit (FP8, AWQ, GPTQ, GGUF)",
+            "Orquestração de Clusters Distribuídos (Kubernetes, Ray, NCCL)",
+            "Engenharia de Performance & Observabilidade de SLOs (Prometheus, Grafana, DCGM)",
         ]
-        self.serving_stack = {
-            "engines": ["vLLM (PagedAttention)", "NVIDIA Triton Server", "TensorRT-LLM", "SGLang", "llama.cpp"],
-            "acceleration": ["CUDA Kernels", "FlashAttention-2/3", "Triton Kernels", "TorchDynamo / AOTInductor"],
-            "quantization": ["FP8 (W8A8)", "AWQ (4-bit)", "GPTQ", "SmoothQuant", "GGUF (Q4_K_M/Q8_0)"],
-            "orchestration": ["Kubernetes + NVIDIA GPU Operator", "Ray Core/Serve", "KEDA (Queue Autoscaling)"],
-            "telemetry": ["Prometheus (DCGM Exporter)", "Grafana", "Weights & Biases", "OpenTelemetry"],
-        }
-        self.production_slos = {
-            "time_to_first_token_p99": "< 45ms",
-            "time_between_tokens": "> 60 tokens/s per user",
-            "kv_cache_fragmentation": "< 3% (PagedAttention)",
-            "target_concurrency": "10,000+ simultaneous streams",
-        }
+        self.metodo = "100% orientado a LABs práticos e código implementado do zero com validação externa"
 
-    def architect_cluster(self, model_weights_gb: float, target_qps: int) -> str:
-        # Calculates memory bound vs compute bound rooflines, applies continuous batching,
-        # and deploys fault-tolerant Tensor Parallel pods across high-speed InfiniBand fabrics.
-        return "Sub-second p99 latency at maximum GPU Tensor Core saturation."
+    def objetivo_atual(self) -> str:
+        return "Dominar cada camada: da física da memória GPU ao cluster multi-nó em produção."
 ```
 
-> **"Modelos de linguagem na prateleira são apenas matrizes estáticas. A engenharia de infraestrutura de LLMs é o que transforma pesos bilionários em serviços de alta disponibilidade com sub-segundo de latência e custo por token otimizado."**
+> **"Estudo e construo em público. Não busco atalhos teóricos: cada conceito de infraestrutura é absorvido através da implementação de laboratórios práticos, medição de latência real e análise de código de baixo nível."**
 
 <br/>
 
-<!-- ====================== CORE PILLARS ====================== -->
+<!-- ====================== LIVING COMPETENCIES & LABS LEDGER ====================== -->
 
-## Core Pillars of LLM Infrastructure
+## Matriz de Habilidades & Laboratórios Práticos (Living Ledger)
+
+Este quadro registra o progresso contínuo de competências e entregas práticas sincronizadas com o ambiente de estudos.
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>1. Serving de Estado da Arte</h3>
-      <ul>
-        <li><b>vLLM & PagedAttention:</b> Eliminação de 96% da fragmentação de memória alocando o KV-Cache como memória virtual paginada.</li>
-        <li><b>Continuous & Dynamic Batching:</b> Escalonamento dinâmico no nível de token (iteração por iteração) para máxima saturação de GPU.</li>
-        <li><b>Chunked Prefill & Prefix Caching:</b> Priorização e reuso de contextos comuns para redução drástica do TTFT (Time-To-First-Token).</li>
-        <li><b>NVIDIA Triton Inference Server:</b> Pipelines em DAG (Model Ensembles), backends C++/gRPC multi-modelo com Dynamic Batching empresarial.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>2. Compressão, VRAM & Quantização</h3>
-      <ul>
-        <li><b>Aritmética de VRAM de Precisão:</b> Cálculo estrito de pegada de memória: $	ext{VRAM} = 	ext{Pesos} + 	ext{KV-Cache} + 	ext{Ativações}$.</li>
-        <li><b>Quantização de Baixo Bit:</b> AWQ (Activation-aware Weight Quantization) e GPTQ para rodar modelos 70B em apenas uma GPU de 48GB.</li>
-        <li><b>FP8 & Fused Kernels:</b> Aproveitamento nativo dos Tensor Cores de Hopper/Blackwell para dobrar o throughput com precisão preservada.</li>
-        <li><b>llama.cpp & GGUF:</b> Serving heterogêneo em CPUs/ARM com offloading parcial de camadas.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>3. Computação Distribuída & Ray</h3>
-      <ul>
-        <li><b>Tensor Parallelism (TP):</b> Divisão de matrizes de atenção e feed-forward entre múltiplas GPUs via anéis NCCL com latência mínima.</li>
-        <li><b>Pipeline Parallelism (PP):</b> Divisão de camadas sequenciais do Transformer com micro-batching.</li>
-        <li><b>Ray Clusters & Ray Serve:</b> Escalonamento elástico e orquestração de workers distribuídos para inferência e fine-tuning LoRA/QLoRA.</li>
-        <li><b>RoCE & InfiniBand:</b> Comunicação inter-GPU com RDMA direta para eliminar gargalos de barramento PCIe.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>4. Kubernetes, Observabilidade & SLOs</h3>
-      <ul>
-        <li><b>Cloud-Native GPU Fleets:</b> GKE/EKS com NVIDIA GPU Operator, Time-Slicing e Multi-Instance GPU (MIG).</li>
-        <li><b>Autoscaling Orientado a Filas:</b> KEDA disparando pods baseado no comprimento de fila de requisições pendentes.</li>
-        <li><b>Observabilidade Granular:</b> Dashboards Grafana monitorando TTFT (p50/p95/p99), TPOT, throughput agregado e temperatura/DCGM.</li>
-        <li><b>LLM-as-a-Judge & DeepEval:</b> Detecção contínua de regressão semântica e CI/CD para pesos de modelos.</li>
-      </ul>
-    </td>
-  </tr>
+  <thead>
+    <tr>
+      <th>Fase do Currículo</th>
+      <th>Competência Técnica Alvo</th>
+      <th>Entregável Prático (LAB)</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Fase 0 · Substrato</b></td>
+      <td>Programação de sistemas Linux, chamadas de sistema, C/C++ avançado e arquitetura de computadores.</td>
+      <td>Implementação de estruturas de dados dinâmicas em C com gerenciamento estrito de memória e concorrência POSIX.</td>
+      <td><code>Em Andamento</code></td>
+    </tr>
+    <tr>
+      <td><b>Fase I · Aritmética</b></td>
+      <td>Cálculo de pegada de VRAM, dinâmica de tensores Transformer e projeção de crescimento de KV-Cache.</td>
+      <td>Calculadora analítica de dimensionamento de memória para modelos 7B a 70B com verificação de ativações.</td>
+      <td><code>Planejado</code></td>
+    </tr>
+    <tr>
+      <td><b>Fase II · Quantização</b></td>
+      <td>Compressão de pesos com AWQ, GPTQ, LLM.int8() e compilação heterogênea GGUF/llama.cpp.</td>
+      <td>Pipeline de quantização local de um modelo 8B para 4-bit com avaliação de perplexidade e benchmark de latência.</td>
+      <td><code>Planejado</code></td>
+    </tr>
+    <tr>
+      <td><b>Fase III · vLLM</b></td>
+      <td>Alocação de KV-Cache via PagedAttention, continuous batching e chunked prefill em alta concorrência.</td>
+      <td>Deploy de servidor vLLM com benchmarking de TTFT sob rampa de carga e medição de economia de memória.</td>
+      <td><code>Planejado</code></td>
+    </tr>
+    <tr>
+      <td><b>Fase IV · Triton Server</b></td>
+      <td>Model Repository, pipelines em grafo DAG (Model Ensembles), backends C++/gRPC e TensorRT-LLM.</td>
+      <td>Configuração de pipeline de inferência multi-estágio no Triton com dynamic batching corporativo.</td>
+      <td><code>Planejado</code></td>
+    </tr>
+    <tr>
+      <td><b>Fase V · Observabilidade</b></td>
+      <td>Métricas de SRE (TTFT, TPOT, Queue Depth), telemetria GPU com DCGM e avaliação LLM-as-a-Judge.</td>
+      <td>Dashboard de monitoramento em tempo real com Prometheus e Grafana integrado a pipeline de CI/CD.</td>
+      <td><code>Planejado</code></td>
+    </tr>
+    <tr>
+      <td><b>Fase VI · Kubernetes</b></td>
+      <td>GPU scheduling em GKE/EKS, NVIDIA GPU Operator, autoscaling por tamanho de fila (KEDA).</td>
+      <td>Cluster Kubernetes orquestrando pods de inferência com autoscaling elástico baseado em volume de tokens.</td>
+      <td><code>Planejado</code></td>
+    </tr>
+  </tbody>
 </table>
 
 <br/>
 
 <!-- ====================== TECH STACK ====================== -->
 
-## Tecnologias & Ferramentas de Sistemas e IA
+## Tecnologias & Ferramentas em Estudo
 
 <div align="center">
 
@@ -133,7 +134,7 @@ class AIInfrastructureEngineer:
 
 <!-- ====================== GITHUB STATS ====================== -->
 
-## Estatísticas do GitHub
+## Atividade & Estatísticas no GitHub
 
 <div align="center">
 
@@ -144,10 +145,6 @@ class AIInfrastructureEngineer:
 
 <img src="https://streak-stats.demolab.com?user=STUDIER-H&theme=tokyonight&hide_border=true&ring=00adb5&fire=6c5ce7&currStreakLabel=00adb5" alt="Streak Stats" />
 
-<br/><br/>
-
-<img width="88%" src="https://github-readme-activity-graph.vercel.app/graph?username=STUDIER-H&theme=tokyo-night&hide_border=true&area=true&color=00adb5&line=6c5ce7&point=ffffff" alt="Activity Graph" />
-
 </div>
 
 <br/>
@@ -155,7 +152,7 @@ class AIInfrastructureEngineer:
 <!-- ====================== FOOTER ====================== -->
 <div align="center">
 
-Desenvolvido por [STUDIER-H](https://github.com/STUDIER-H) — *"Compute density and minimal TTFT are the only metrics that matter at scale."*
+Construído por [STUDIER-H](https://github.com/STUDIER-H) — *"Aprendendo e implementando em público, um laboratório de cada vez."*
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,25,30&height=120&section=footer" alt="Footer Banner" />
 
