@@ -1,23 +1,23 @@
 <!-- ====================== HEADER ====================== -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,25,30&height=220&section=header&text=STUDIER-H&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20Infrastructure%20%E2%80%A2%20LLM%20Serving%20%E2%80%A2%20GPU%20Systems%20Architect&descAlignY=58&descSize=16" alt="Header Banner" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,25,30&height=220&section=header&text=STUDIER-H&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Staff%20AI%20Systems%20%E2%80%A2%20LLM%20Serving%20%E2%80%A2%20GPU%20Infrastructure%20Architect&descAlignY=58&descSize=16" alt="Header Banner" />
 
 <a href="https://github.com/STUDIER-H">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=900&color=00ADB5&center=true&vCenter=true&width=750&lines=⚡+Staff+AI+Infrastructure+%26+LLM+Serving+Architect;🚀+High-Throughput+Inference+(vLLM+•+TensorRT-LLM+•+Triton);📉+PagedAttention+•+Zero-Waste+KV+Cache+•+Sub-50ms+TTFT;🗜️+FP8%2C+AWQ+%26+GPTQ+Quantization+(140GB+→+35GB+VRAM);☸️+Kubernetes+GPU+Scheduling+•+Ray+Distributed+Clusters" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=800&color=00ADB5&center=true&vCenter=true&width=760&lines=%E2%9A%A1%20Staff%20AI%20Systems%20%26%20LLM%20Infrastructure%20Architect%3B%F0%9F%9A%80%20High-Throughput%20Inference%20%28vLLM%20%E2%80%A2%20TensorRT-LLM%20%E2%80%A2%20Triton%29%3B%F0%9F%93%89%20PagedAttention%20%E2%80%A2%20Zero-Waste%20KV%20Cache%20%E2%80%A2%20Sub-50ms%20TTFT%3B%F0%9F%97%9C%EF%B8%8F%20FP8%2C%20AWQ%20%26%20GPTQ%20Quantization%20%28140GB%20%E2%86%92%2035GB%20VRAM%29%3B%E2%98%B8%EF%B8%8F%20Kubernetes%20GPU%20Scheduling%20%E2%80%A2%20Ray%20Distributed%20Clusters" alt="Typing Animation" />
 </a>
 
 <br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=STUDIER-H&color=00ADB5&style=for-the-badge&label=VISUALIZA%C3%87%C3%95ES)](https://github.com/STUDIER-H)
-[![Roadmap Live](https://img.shields.io/badge/Roadmap%20Live-trilha--ia--staff.pages.dev-6C5CE7?style=for-the-badge&logo=cloudflare&logoColor=white)](https://trilha-ia-staff.pages.dev/)
-[![Hardware Target](https://img.shields.io/badge/Hardware-NVIDIA%20H100%20%2F%20A100%20%2F%20B200-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://trilha-ia-staff.pages.dev/)
+[![Profile Views](https://komarev.com/ghpvc/?username=STUDIER-H&color=00ADB5&style=for-the-badge&label=PROFILE%20VIEWS)](https://github.com/STUDIER-H)
+[![Focus](https://img.shields.io/badge/Specialization-LLM%20Serving%20%26%20GPU%20Optimization-6C5CE7?style=for-the-badge&logo=pytorch&logoColor=white)](https://github.com/STUDIER-H)
+[![Hardware](https://img.shields.io/badge/Hardware-NVIDIA%20H100%20%2F%20A100%20%2F%20B200-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://github.com/STUDIER-H)
 
 </div>
 
 <br/>
 
-<!-- ====================== ARCHITECTURAL PHILOSOPHY ====================== -->
+<!-- ====================== SYSTEM ARCHITECTURE ====================== -->
 
 ## ⚡ System Architecture & Execution Model
 
@@ -25,8 +25,8 @@
 class AIInfrastructureEngineer:
     def __init__(self):
         self.identity = "STUDIER-H"
-        self.role = "AI Infrastructure & LLM Systems Architect"
-        self.domains = [
+        self.role = "Staff AI Systems & LLM Infrastructure Architect"
+        self.specialties = [
             "High-Throughput Inference Engines",
             "GPU Compute Density & VRAM Arithmetic",
             "Distributed Cluster Orchestration",
@@ -75,7 +75,7 @@ class AIInfrastructureEngineer:
       <h3>🗜️ 2. Compressão, VRAM & Quantização</h3>
       <ul>
         <li><b>Aritmética de VRAM de Precisão:</b> Cálculo estrito de pegada de memória: $	ext{VRAM} = 	ext{Pesos} + 	ext{KV-Cache} + 	ext{Ativações}$.</li>
-        <li><b>Quantização de Baixo Bit:</b> AWQ (Activation-aware Weight Quantization) e GPTQ para modelos 70B em apenas uma GPU de 48GB.</li>
+        <li><b>Quantização de Baixo Bit:</b> AWQ (Activation-aware Weight Quantization) e GPTQ para rodar modelos 70B em apenas uma GPU de 48GB.</li>
         <li><b>FP8 & Fused Kernels:</b> Aproveitamento nativo dos Tensor Cores de Hopper/Blackwell para dobrar o throughput com precisão preservada.</li>
         <li><b>llama.cpp & GGUF:</b> Serving heterogêneo em CPUs/ARM com offloading parcial de camadas.</li>
       </ul>
@@ -113,38 +113,19 @@ class AIInfrastructureEngineer:
 
 **⚡ LLM Serving, Aceleração & Linguagens de Baixo Nível**
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,c,cpp,cuda,docker,linux,bash,git&perline=9" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,c,cpp,docker,linux,bash,git,github&perline=9" />
 
 <br/>
 
 **☸️ Orquestração de Clusters, Cloud & Banco de Dados**
 
-<img src="https://skillicons.dev/icons?i=kubernetes,gcp,aws,cloudflare,supabase,postgres,redis,fastapi,github&perline=9" />
+<img src="https://skillicons.dev/icons?i=kubernetes,gcp,aws,cloudflare,supabase,postgres,redis,fastapi&perline=8" />
 
 <br/>
 
 **📊 Observabilidade, Telemetria & Desenvolvimento**
 
-<img src="https://skillicons.dev/icons?i=prometheus,grafana,vscode,postman,anaconda&perline=6" />
-
-</div>
-
-<br/>
-
-<!-- ====================== FEATURED REPOSITORY ====================== -->
-
-## 🌟 Projeto Canônico em Destaque
-
-<div align="center">
-
-### 🗺️ [TrilhaIA-Staff-Roadmap](https://github.com/STUDIER-H/TrilhaIA-Staff-Roadmap)
-*O roadmap definitivo de +2.500 horas auditadas para Engenharia de Sistemas de IA, GPU Kernel Optimization e Infraestrutura de LLMs.*
-
-[![Deploy Status](https://img.shields.io/badge/Deploy-Cloudflare%20Pages%20Active-brightgreen?style=for-the-badge&logo=cloudflare)](https://trilha-ia-staff.pages.dev/)
-[![Auditoria de Elite](https://img.shields.io/badge/Tribunal%20de%20Cursos-114%20Avaliados-blueviolet?style=for-the-badge)](https://trilha-ia-staff.pages.dev/)
-[![Tracks](https://img.shields.io/badge/Trilhas-CUDA%20%7C%20LLM%20Infra%20%7C%20Vulnerability%20Research-FF6B6B?style=for-the-badge)](https://trilha-ia-staff.pages.dev/)
-
-👉 **Acesse a aplicação em produção:** [trilha-ia-staff.pages.dev](https://trilha-ia-staff.pages.dev/)
+<img src="https://skillicons.dev/icons?i=prometheus,grafana,vscode,postman,anaconda&perline=5" />
 
 </div>
 
@@ -156,16 +137,16 @@ class AIInfrastructureEngineer:
 
 <div align="center">
 
-<img height="172em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=STUDIER-H&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&rank_icon=percentile&title_color=00adb5&icon_color=6c5ce7&text_color=c8d6e5" alt="GitHub Stats" />
-<img height="172em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=STUDIER-H&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=00adb5&text_color=c8d6e5" alt="Top Languages" />
+<img height="175em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=STUDIER-H&show_icons=true&theme=tokyonight&hide_border=true&title_color=00adb5&icon_color=6c5ce7&text_color=c8d6e5" alt="GitHub Stats" />
+<img height="175em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=STUDIER-H&layout=compact&theme=tokyonight&hide_border=true&title_color=00adb5&text_color=c8d6e5" alt="Top Languages" />
 
-<br/>
+<br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=STUDIER-H&theme=tokyonight&hide_border=true&ring=00adb5&fire=6c5ce7&currStreakLabel=00adb5" alt="Streak Stats" />
 
-<br/>
+<br/><br/>
 
-<img width="85%" src="https://github-readme-activity-graph.vercel.app/graph?username=STUDIER-H&theme=tokyo-night&hide_border=true&area=true&color=00adb5&line=6c5ce7&point=ffffff" alt="Activity Graph" />
+<img width="88%" src="https://github-readme-activity-graph.vercel.app/graph?username=STUDIER-H&theme=tokyo-night&hide_border=true&area=true&color=00adb5&line=6c5ce7&point=ffffff" alt="Activity Graph" />
 
 </div>
 
@@ -174,7 +155,7 @@ class AIInfrastructureEngineer:
 <!-- ====================== FOOTER ====================== -->
 <div align="center">
 
-⭐ Construído por [STUDIER-H](https://github.com/STUDIER-H) — *"Compute density is the only metric that matters at scale."*
+⭐ Desenvolvido por [STUDIER-H](https://github.com/STUDIER-H) — *"Compute density and minimal TTFT are the only metrics that matter at scale."*
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,25,30&height=120&section=footer" alt="Footer Banner" />
 
