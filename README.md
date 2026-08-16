@@ -4,13 +4,13 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,25,30&height=220&section=header&text=STUDIER-H&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Staff%20AI%20Systems%20%E2%80%A2%20LLM%20Serving%20%E2%80%A2%20GPU%20Infrastructure%20Architect&descAlignY=58&descSize=16" alt="Header Banner" />
 
 <a href="https://github.com/STUDIER-H">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=800&color=00ADB5&center=true&vCenter=true&width=760&lines=%E2%9A%A1%20Staff%20AI%20Systems%20%26%20LLM%20Infrastructure%20Architect%3B%F0%9F%9A%80%20High-Throughput%20Inference%20%28vLLM%20%E2%80%A2%20TensorRT-LLM%20%E2%80%A2%20Triton%29%3B%F0%9F%93%89%20PagedAttention%20%E2%80%A2%20Zero-Waste%20KV%20Cache%20%E2%80%A2%20Sub-50ms%20TTFT%3B%F0%9F%97%9C%EF%B8%8F%20FP8%2C%20AWQ%20%26%20GPTQ%20Quantization%20%28140GB%20%E2%86%92%2035GB%20VRAM%29%3B%E2%98%B8%EF%B8%8F%20Kubernetes%20GPU%20Scheduling%20%E2%80%A2%20Ray%20Distributed%20Clusters" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=800&color=00ADB5&center=true&vCenter=true&width=760&lines=Staff%20AI%20Systems%20%26%20LLM%20Infrastructure%20Architect%3BHigh-Throughput%20Inference%20%28vLLM%20%E2%80%A2%20TensorRT-LLM%20%E2%80%A2%20Triton%29%3BPagedAttention%20%E2%80%A2%20Zero-Waste%20KV%20Cache%20%E2%80%A2%20Sub-50ms%20TTFT%3BFP8%2C%20AWQ%20%26%20GPTQ%20Quantization%20%28140GB%20%E2%86%92%2035GB%20VRAM%29%3BKubernetes%20GPU%20Scheduling%20%E2%80%A2%20Ray%20Distributed%20Clusters" alt="Typing Animation" />
 </a>
 
 <br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=STUDIER-H&color=00ADB5&style=for-the-badge&label=PROFILE%20VIEWS)](https://github.com/STUDIER-H)
-[![Focus](https://img.shields.io/badge/Specialization-LLM%20Serving%20%26%20GPU%20Optimization-6C5CE7?style=for-the-badge&logo=pytorch&logoColor=white)](https://github.com/STUDIER-H)
+[![Profile Views](https://komarev.com/ghpvc/?username=STUDIER-H&color=00ADB5&style=for-the-badge&label=VISUALIZA%C3%87%C3%95ES)](https://github.com/STUDIER-H)
+[![Specialization](https://img.shields.io/badge/Especializa%C3%A7%C3%A3o-LLM%20Serving%20%26%20GPU%20Optimization-6C5CE7?style=for-the-badge&logo=pytorch&logoColor=white)](https://github.com/STUDIER-H)
 [![Hardware](https://img.shields.io/badge/Hardware-NVIDIA%20H100%20%2F%20A100%20%2F%20B200-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://github.com/STUDIER-H)
 
 </div>
@@ -19,7 +19,7 @@
 
 <!-- ====================== SYSTEM ARCHITECTURE ====================== -->
 
-## ⚡ System Architecture & Execution Model
+## System Architecture & Execution Model
 
 ```python
 class AIInfrastructureEngineer:
@@ -52,18 +52,18 @@ class AIInfrastructureEngineer:
         return "Sub-second p99 latency at maximum GPU Tensor Core saturation."
 ```
 
-> **"Modelos de linguagem na prateleira são apenas matrizes estáticas. A engenharia de infraestrutura de LLMs é o que transforma pesos bilionários em serviços de alta disponibilidade com sub-segundo de latência e custo por token otimizado."** 🚀⚡
+> **"Modelos de linguagem na prateleira são apenas matrizes estáticas. A engenharia de infraestrutura de LLMs é o que transforma pesos bilionários em serviços de alta disponibilidade com sub-segundo de latência e custo por token otimizado."**
 
 <br/>
 
 <!-- ====================== CORE PILLARS ====================== -->
 
-## 🏛️ Core Pillars of LLM Infrastructure
+## Core Pillars of LLM Infrastructure
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🚀 1. Serving de Estado da Arte</h3>
+      <h3>1. Serving de Estado da Arte</h3>
       <ul>
         <li><b>vLLM & PagedAttention:</b> Eliminação de 96% da fragmentação de memória alocando o KV-Cache como memória virtual paginada.</li>
         <li><b>Continuous & Dynamic Batching:</b> Escalonamento dinâmico no nível de token (iteração por iteração) para máxima saturação de GPU.</li>
@@ -72,7 +72,7 @@ class AIInfrastructureEngineer:
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>🗜️ 2. Compressão, VRAM & Quantização</h3>
+      <h3>2. Compressão, VRAM & Quantização</h3>
       <ul>
         <li><b>Aritmética de VRAM de Precisão:</b> Cálculo estrito de pegada de memória: $	ext{VRAM} = 	ext{Pesos} + 	ext{KV-Cache} + 	ext{Ativações}$.</li>
         <li><b>Quantização de Baixo Bit:</b> AWQ (Activation-aware Weight Quantization) e GPTQ para rodar modelos 70B em apenas uma GPU de 48GB.</li>
@@ -83,7 +83,7 @@ class AIInfrastructureEngineer:
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧮 3. Computação Distribuída & Ray</h3>
+      <h3>3. Computação Distribuída & Ray</h3>
       <ul>
         <li><b>Tensor Parallelism (TP):</b> Divisão de matrizes de atenção e feed-forward entre múltiplas GPUs via anéis NCCL com latência mínima.</li>
         <li><b>Pipeline Parallelism (PP):</b> Divisão de camadas sequenciais do Transformer com micro-batching.</li>
@@ -92,7 +92,7 @@ class AIInfrastructureEngineer:
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>☸️ 4. Kubernetes, Observabilidade & SLOs</h3>
+      <h3>4. Kubernetes, Observabilidade & SLOs</h3>
       <ul>
         <li><b>Cloud-Native GPU Fleets:</b> GKE/EKS com NVIDIA GPU Operator, Time-Slicing e Multi-Instance GPU (MIG).</li>
         <li><b>Autoscaling Orientado a Filas:</b> KEDA disparando pods baseado no comprimento de fila de requisições pendentes.</li>
@@ -107,23 +107,23 @@ class AIInfrastructureEngineer:
 
 <!-- ====================== TECH STACK ====================== -->
 
-## 🛠️ Tecnologias & Ferramentas de Sistemas e IA
+## Tecnologias & Ferramentas de Sistemas e IA
 
 <div align="center">
 
-**⚡ LLM Serving, Aceleração & Linguagens de Baixo Nível**
+**LLM Serving, Aceleração & Linguagens de Baixo Nível**
 
 <img src="https://skillicons.dev/icons?i=python,pytorch,c,cpp,docker,linux,bash,git,github&perline=9" />
 
 <br/>
 
-**☸️ Orquestração de Clusters, Cloud & Banco de Dados**
+**Orquestração de Clusters, Cloud & Banco de Dados**
 
 <img src="https://skillicons.dev/icons?i=kubernetes,gcp,aws,cloudflare,supabase,postgres,redis,fastapi&perline=8" />
 
 <br/>
 
-**📊 Observabilidade, Telemetria & Desenvolvimento**
+**Observabilidade, Telemetria & Desenvolvimento**
 
 <img src="https://skillicons.dev/icons?i=prometheus,grafana,vscode,postman,anaconda&perline=5" />
 
@@ -133,7 +133,7 @@ class AIInfrastructureEngineer:
 
 <!-- ====================== GITHUB STATS ====================== -->
 
-## 📊 Estatísticas do GitHub
+## Estatísticas do GitHub
 
 <div align="center">
 
@@ -155,7 +155,7 @@ class AIInfrastructureEngineer:
 <!-- ====================== FOOTER ====================== -->
 <div align="center">
 
-⭐ Desenvolvido por [STUDIER-H](https://github.com/STUDIER-H) — *"Compute density and minimal TTFT are the only metrics that matter at scale."*
+Desenvolvido por [STUDIER-H](https://github.com/STUDIER-H) — *"Compute density and minimal TTFT are the only metrics that matter at scale."*
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8,25,30&height=120&section=footer" alt="Footer Banner" />
 
