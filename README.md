@@ -29,9 +29,9 @@ class AIInfrastructureTrainee:
         self.curriculo = "Trilha rigorosa de 2.500 horas em Sistemas de Baixo Nível, Serving de LLMs e GPUs"
         self.areas_de_estudo = [
             "Engines de Inferência de Alto Throughput (vLLM, NVIDIA Triton, TensorRT-LLM)",
-            "Aritmética de VRAM & Quantização de Baixo Bit (FP8, AWQ, GPTQ, GGUF)",
-            "Orquestração de Clusters Distribuídos (Kubernetes, Ray, NCCL)",
-            "Engenharia de Performance & Observabilidade de SLOs (Prometheus, Grafana, DCGM)",
+            "Aritmética de VRAM, Quantização (FP8, AWQ, GPTQ) & OpenAI Triton Kernels",
+            "Orquestração de Supercomputação (Kubernetes, Slurm, Ray, NCCL, InfiniBand)",
+            "Engenharia de Performance, gRPC Streaming & Observabilidade (Prometheus, Grafana, DCGM)",
         ]
         self.metodo = "100% orientado a LABs práticos e código implementado do zero com validação externa"
 
@@ -60,45 +60,39 @@ Este quadro registra o progresso contínuo de competências e entregas práticas
   </thead>
   <tbody>
     <tr>
-      <td><b>Fase 0 · Substrato</b></td>
-      <td>Programação de sistemas Linux, chamadas de sistema, C/C++ avançado e arquitetura de computadores.</td>
-      <td>Implementação de estruturas de dados dinâmicas em C com gerenciamento estrito de memória e concorrência POSIX.</td>
+      <td><b>Fase 0 · Substrato & Sistemas</b></td>
+      <td>Programação Linux, chamadas de sistema, C/C++ avançado e Rust para infraestrutura (Ownership/PyO3).</td>
+      <td>Implementação de ferramenta CLI em Rust (<code>tok-cli</code>) para processamento paralelo de datasets com binding Python via PyO3.</td>
       <td><code>Em Andamento</code></td>
     </tr>
     <tr>
-      <td><b>Fase I · Aritmética</b></td>
-      <td>Cálculo de pegada de VRAM, dinâmica de tensores Transformer e projeção de crescimento de KV-Cache.</td>
-      <td>Calculadora analítica de dimensionamento de memória para modelos 7B a 70B com verificação de ativações.</td>
+      <td><b>Fase I · Contêineres & Dados</b></td>
+      <td>Automação Docker/CI-CD, internals de banco de dados e indexação vetorial aproximada (HNSW).</td>
+      <td>Provisionamento de PostgreSQL com <code>pgvector</code> em Docker, tunagem de buffer pool e benchmark de Recall vs Latência p99 sobre 1M de vetores.</td>
       <td><code>Planejado</code></td>
     </tr>
     <tr>
-      <td><b>Fase II · Quantização</b></td>
-      <td>Compressão de pesos com AWQ, GPTQ, LLM.int8() e compilação heterogênea GGUF/llama.cpp.</td>
-      <td>Pipeline de quantização local de um modelo 8B para 4-bit com avaliação de perplexidade e benchmark de latência.</td>
+      <td><b>Fase II · Kubernetes</b></td>
+      <td>Orquestração de workloads em GKE/EKS, NVIDIA GPU Operator, Helm charts e gerenciamento de recursos.</td>
+      <td>Deploy de cluster Kubernetes com nós GPU acelerados, time-slicing e manifests declarativos de serviços.</td>
       <td><code>Planejado</code></td>
     </tr>
     <tr>
-      <td><b>Fase III · vLLM</b></td>
-      <td>Alocação de KV-Cache via PagedAttention, continuous batching e chunked prefill em alta concorrência.</td>
-      <td>Deploy de servidor vLLM com benchmarking de TTFT sob rampa de carga e medição de economia de memória.</td>
+      <td><b>Fase III · Transformer & Kernels</b></td>
+      <td>Física de VRAM, quantização de baixo bit (AWQ/FP8) e programação de GPU Kernels via OpenAI Triton.</td>
+      <td>Escrita de Kernel fundido em Python via OpenAI Triton (<em>Fused MatMul + AWQ Dequantization</em>) com eliminação de round-trips de HBM.</td>
       <td><code>Planejado</code></td>
     </tr>
     <tr>
-      <td><b>Fase IV · Triton Server</b></td>
-      <td>Model Repository, pipelines em grafo DAG (Model Ensembles), backends C++/gRPC e TensorRT-LLM.</td>
-      <td>Configuração de pipeline de inferência multi-estágio no Triton com dynamic batching corporativo.</td>
+      <td><b>Fase IV · Serving & gRPC</b></td>
+      <td>vLLM com PagedAttention, streaming de tokens via gRPC/Protobuf e observabilidade com Prometheus/Grafana.</td>
+      <td>Gateway de inferência assíncrono com gRPC bidirecional e medição de redução de TTFT sob 1.000 conexões simultâneas.</td>
       <td><code>Planejado</code></td>
     </tr>
     <tr>
-      <td><b>Fase V · Observabilidade</b></td>
-      <td>Métricas de SRE (TTFT, TPOT, Queue Depth), telemetria GPU com DCGM e avaliação LLM-as-a-Judge.</td>
-      <td>Dashboard de monitoramento em tempo real com Prometheus e Grafana integrado a pipeline de CI/CD.</td>
-      <td><code>Planejado</code></td>
-    </tr>
-    <tr>
-      <td><b>Fase VI · Kubernetes</b></td>
-      <td>GPU scheduling em GKE/EKS, NVIDIA GPU Operator, autoscaling por tamanho de fila (KEDA).</td>
-      <td>Cluster Kubernetes orquestrando pods de inferência com autoscaling elástico baseado em volume de tokens.</td>
+      <td><b>Fase V · HPC & Enterprise Serving</b></td>
+      <td>NVIDIA Triton Server (DAG Ensembles), orquestração Slurm, interconexão NCCL e FinOps de inferência.</td>
+      <td>Cluster multi-nó gerenciado via Slurm rodando inferência distribuída com Tensor Parallelism em anéis NCCL e telemetria DCGM.</td>
       <td><code>Planejado</code></td>
     </tr>
   </tbody>
